@@ -1,0 +1,16 @@
+.border-bottom {
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgb(224, 224, 224) !important;
+}
+button {
+  width: 100px;
+  height: 75px;
+  background-color: #1bbc9b;
+  color: white;
+}
+
+button:hover {
+  background-color: #19a589 !important ;
+  color: white;
+}

@@ -1,0 +1,26 @@
+.lines {
+  position: relative;
+  color: #2d3e50 !important;
+}
+.main-color {
+  color: #2d3e50;
+}
+
+.lines::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 53%;
+  height: 4px;
+  width: 100px;
+  background-color: #2d3e50;
+}
+.lines::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 53%;
+  height: 4px;
+  width: 100px;
+  background-color: #2d3e50;
+}

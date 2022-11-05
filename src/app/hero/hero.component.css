@@ -1,0 +1,26 @@
+.bg-secondary-color {
+  background-color: #1bbc9b;
+}
+.two-lines {
+  position: relative;
+}
+.two-lines::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: -200%;
+  height: 4px;
+  width: 100px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+}
+.two-lines::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -200%;
+  height: 4px;
+  width: 100px;
+  background-color: white;
+  transform: translate(50%, -50%);
+}

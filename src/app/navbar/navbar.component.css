@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #2d3e50;
+}
+
+.custom-dark {
+  background-color: #2d3e50;
+}
+
+.bolder {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+.bigger-size {
+  font-size: 2rem;
+}
+
+a:hover {
+  color: #1bbc9b !important;
+}
