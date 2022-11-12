@@ -17,6 +17,7 @@
   font-size: 2rem;
 }
 
-a:hover {
-  color: #1bbc9b !important;
+.link-active {
+  background-color: #1bbc9b !important;
+  border-radius: 8px;
 }
